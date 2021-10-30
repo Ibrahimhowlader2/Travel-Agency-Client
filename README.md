@@ -6,7 +6,7 @@ Click Here For Live View [Travel Agency Website](https://travel-assignment.web.a
 
 ## About This Project :
 
-- Uses React With Html, CSS.
+- Uses React and React Router With Html, CSS.
 - Use Firebase Authentication for sign in with google.
 - Use React Private Route.
 - This is an Travel Agency website and i will show some Places for travel.
