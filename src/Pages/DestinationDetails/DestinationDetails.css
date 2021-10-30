@@ -1,0 +1,58 @@
+.details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 5rem 0;
+}
+
+.details .image {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .image img {
+    width: 80%;
+}
+
+.details .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+}
+
+.details .content span {
+    color: #bac34e;
+    font-size: 2.5rem;
+}
+
+.details .content h3 {
+    color: #222;
+    font-size: 3rem;
+    padding-top: .5rem;
+}
+
+.details .content p {
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.details .content .days,
+.details .content .price {
+    font-size: 2rem;
+}
+
+.details .content .days {
+    margin-right: 10rem;
+}
