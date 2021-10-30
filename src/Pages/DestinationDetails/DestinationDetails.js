@@ -10,7 +10,7 @@ const DestinationDetails = () => {
     const [details,setDetails] = useState({})
 
     useEffect(() => {
-        fetch(`http://localhost:5000/destinations/${detailsId}`)
+        fetch(`https://guarded-reef-12809.herokuapp.com/destinations/${detailsId}`)
             .then(res => res.json())
             .then(data => setDetails(data))
         // eslint-disable-next-line react-hooks/exhaustive-deps

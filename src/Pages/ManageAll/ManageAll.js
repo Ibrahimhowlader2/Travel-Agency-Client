@@ -7,7 +7,7 @@ const ManageAll = () => {
     const [destinations, setDestinations] = useState([])
 
     useEffect(() =>
-        fetch('http://localhost:5000/destinations')
+        fetch('https://guarded-reef-12809.herokuapp.com/destinations')
             .then(res => res.json())
             .then(data => {
                 setDestinations(data)
@@ -16,7 +16,7 @@ const ManageAll = () => {
 
 
     const handleDelete = id => {
-        const url = `http://localhost:5000/destinations/${id}`;
+        const url = `https://guarded-reef-12809.herokuapp.com/destinations/${id}`;
         fetch(url, {
             method: 'DELETE',
         })

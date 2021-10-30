@@ -17,7 +17,7 @@ const AddNew = () => {
     const onSubmit = (data) => {
         data.email = user.email;
         console.log(data);
-        axios.post(`http://localhost:5000/destinations`, data)
+        axios.post(`https://guarded-reef-12809.herokuapp.com/destinations`, data)
             .then(res => {
                 console.log(res);
                 if(res.data.insertedId){

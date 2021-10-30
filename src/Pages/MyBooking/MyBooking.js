@@ -8,7 +8,7 @@ const MyBooking = () => {
     const [bookings, setBooking] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myBookings/${user?.email}`)
+        fetch(`https://guarded-reef-12809.herokuapp.com/myBookings/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setBooking(data));
     }, [user.email]);
