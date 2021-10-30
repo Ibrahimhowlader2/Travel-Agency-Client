@@ -10,4 +10,4 @@ Click Here For Live View [Travel Agency Website](https://travel-assignment.web.a
 - Use Firebase Authentication for sign in with google.
 - Use React Private Route.
 - This is an Travel Agency website and i will show some Places for travel.
-- Use MongoDb, Node, Express for backend.
+- Use MongoDb, Node, Express for Backend.
