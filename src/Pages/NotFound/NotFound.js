@@ -4,7 +4,6 @@ import './NotFound.css';
 
 const NotFound = () => {
     return (
-        // <section className="not-found">
             <div id="notfound">
                 <div className="notfound">
                     <div className="notfound-404">
@@ -14,7 +13,6 @@ const NotFound = () => {
                     <Link to="/" className="btn">home page</Link>
                 </div>
             </div>
-        // </section>
     );
 };
 

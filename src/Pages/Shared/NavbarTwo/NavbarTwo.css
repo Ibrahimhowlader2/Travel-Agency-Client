@@ -1,0 +1,23 @@
+.container-fluid .navbar-brand img{
+    width: 10rem;
+  }
+  .navbar-nav .nav-item a{
+      font-size: 1.7rem;
+      margin: 0 1rem;
+  }
+  .navbar-nav .nav-item a:active{
+      padding:.5rem;
+  }
+  .dropdown .dropdown-menu .dropdown-item:hover{
+    background: none;
+    color: #FF8800;
+  }
+  .login_btn .btn{
+    margin: 0;
+    padding: 0;
+}
+span.user-name {
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-top:.5rem;
+  }

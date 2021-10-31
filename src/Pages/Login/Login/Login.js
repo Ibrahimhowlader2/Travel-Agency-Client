@@ -23,9 +23,6 @@ const Login = () => {
             history.push(redirect_uri)
         })
     }
-
-
-
     
     return (
         <div>

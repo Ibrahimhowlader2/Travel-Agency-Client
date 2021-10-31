@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
@@ -38,7 +38,6 @@ const Navbar = () => {
 
     return (
         <>
-            {/* Header Start */}
             <header className="header">
                 <div id="menu-btn" onClick={handleMenu}>
                     <span>
@@ -109,13 +108,13 @@ const Navbar = () => {
                             <> <span className="user-name">{user.displayName} : </span>  <button className="btn" onClick={logOut}>Log Out</button> </> :
                             <NavLink as={Link} to="/login"><button className="btn">Login</button></NavLink>
                     }
-                    {/* <Link to="/login"><button className="btn">Login</button></Link> */}
+                    
 
                 </div>
             </header>
-            {/* Header End */}
+       
         </>
     );
 };
 
-export default Navbar;
+export default Navbar; */

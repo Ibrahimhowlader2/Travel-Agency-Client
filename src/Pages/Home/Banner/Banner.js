@@ -5,8 +5,6 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div>
-            {/* <!-- home section starts  --> */}
-
             <section className="banner" id="banner">
 
                 <div className="content">
@@ -19,8 +17,6 @@ const Banner = () => {
                 </div>
 
             </section>
-
-            {/* <!-- home section ends --> */}
         </div>
     );
 };

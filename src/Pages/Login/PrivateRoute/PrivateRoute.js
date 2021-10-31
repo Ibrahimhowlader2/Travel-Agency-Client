@@ -4,9 +4,13 @@ import useAuth from '../../../hooks/useAuth';
 import './PrivateRoute.css';
 
 const PrivateRoute = ({ children, ...rest }) => {
-    const { user,isLoading } = useAuth();
-    if(isLoading){
-        return <h2 className="loading">Loading...</h2>
+    const { user, isLoading } = useAuth();
+    if (isLoading) {
+        return <div className="the-boss">
+            <div class="loader">
+                Loading...
+            </div>
+        </div>
     }
     return (
         <Route
